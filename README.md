@@ -7,3 +7,8 @@ A simple image processing / ML project to classify image patches as one of 16 te
 4. The feature mean and covariance matrix for each texture are computed
 5. All blocks in the image (64 x 4 x 4 = 1024) are classified using Bayes rule
 6. The classification results are overlayed with colour on the original image
+
+Original image:
+![original](https://github.com/jessexknight/bayes-texture/tree/master/img/brotatz.tiff)
+Classification result:
+![result](https://github.com/jessexknight/bayes-texture/tree/master/img/result.png)
