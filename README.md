@@ -9,6 +9,9 @@ A simple image processing / ML project to classify image patches as one of 16 te
 6. The classification results are overlayed with colour on the original image
 
 Original image:
-![original](https://github.com/jessexknight/bayes-texture/tree/master/img/brotatz.tiff)
+
+![original](https://github.com/jessexknight/bayes-texture/raw/master/img/brodatz.tiff)
+
 Classification result:
-![result](https://github.com/jessexknight/bayes-texture/tree/master/img/result.png)
+
+![result](https://github.com/jessexknight/bayes-texture/raw/master/img/result.png)
