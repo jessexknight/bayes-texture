@@ -74,12 +74,13 @@ def bayes_classify(x,u,c):
 
 def colorover(Ig,Ic,cmap,alpha=0.5):
   # add a color overlay (Ic) to a grayscale image (Ig)
-  IG = arr(pp.get_cmap('gray')(Ig),dtype=np.float)
+  # IG = arr(pp.get_cmap('gray')(Ig),dtype=np.float)
+  IG = Ig
   IC = arr(pp.get_cmap(cmap)  (Ic),dtype=np.float)
   return (1.0-alpha)*IG + (alpha)*IC
 
 # load the image and split into [4x4] patches
-I = arr(pp.imread('img/brodatz.tiff'),dtype=np.float)/256.0
+I = arr(pp.imread('img/brodatz.png'),dtype=np.float)
 S = imgsplit(I,[4,4])
 # split patches into [16x16] blocks and extract features from each
 X = [[[]]*4]*4;

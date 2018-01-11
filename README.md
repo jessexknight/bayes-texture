@@ -10,7 +10,7 @@ A simple image processing / ML project to classify image patches as one of 16 te
 
 Original image:
 
-![original](https://github.com/jessexknight/bayes-texture/raw/master/img/brodatz.tiff)
+![original](https://github.com/jessexknight/bayes-texture/raw/master/img/brodatz.png)
 
 Classification result:
 
