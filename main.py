@@ -2,7 +2,10 @@ import numpy as np
 import matplotlib.pyplot as pp
 from itertools import chain
 from numpy import array as arr
-from skimage.transform import rescale
+# NOTE STACK OVERFLOW - comment 1/2 of these lines
+from skimage.transform import rescale     # works as expected
+#from scipy.ndimage import zoom as rescale # artifacts in rescaled label image
+# NOTE END
 from scipy import misc
 
 def imgsplit(img,nn):
